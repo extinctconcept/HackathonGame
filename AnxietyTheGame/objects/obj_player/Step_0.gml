@@ -35,8 +35,8 @@ if(posX > 1) {
  
  // **************** COLLISION DETECTION *******************//
  // Wall Collision Horizontal
- if(place_meeting(x + posX, y, obj_wall)) {
-	while(!place_meeting(x + sign(posX), y, obj_wall)){
+ if(place_meeting(x + posX, y, obj_wall) || (place_meeting(x + posX, y, obj_door) && obj_door.closed)) {
+	while(!place_meeting(x + sign(posX), y, obj_wall) && !place_meeting(x + sign(posX), y, obj_door)){
 		x = x + sign(posX);
 	}
 	posX = 0;
@@ -45,8 +45,8 @@ if(posX > 1) {
 
  
  // Wall Collision Vertical
-  if(place_meeting(x, y + posY, obj_wall)) {
-	while(!place_meeting(x, y + sign(posY), obj_wall)){
+  if(place_meeting(x, y + posY, obj_wall || (place_meeting(x, y + posY, obj_door) && obj_door.closed))) {
+	while(!place_meeting(x, y + sign(posY), obj_wall) && !place_meeting(x + sign(posX), y, obj_door)){
 		y = y + sign(posY);
 	}
 	posY = 0;
