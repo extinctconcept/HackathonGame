@@ -5,3 +5,4 @@ walkspd = 4;
 jumpCurr = 0;
 jumpNum = 1;
 bulletCooldown = 0;
+playerHealth = 100;
