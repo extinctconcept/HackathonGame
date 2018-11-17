@@ -74,4 +74,3 @@ if(posX > 1) {
  
  
 // **************** END COLLISION DETECTION *******************//
- 
