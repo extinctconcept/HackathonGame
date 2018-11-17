@@ -153,6 +153,25 @@
             }
         },
         {
+            "Key": "2db864ed-eb5e-4c23-8b49-0d8c9676b411",
+            "Value": {
+                "id": "0fc999c1-8eec-4133-9b25-94c388313a56",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_gunshot\/snd_gunshot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2e85e850-7cd7-4b5d-9af8-898ba0313551",
             "Value": {
                 "id": "43e5e804-ac3b-4936-9240-02a729883991",
@@ -853,6 +872,25 @@
                 ],
                 "resourcePath": "views\/de246cf7-3489-49b2-a4a8-73c29f4796b3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0378e04-e7df-410a-8b20-39705b58841a",
+            "Value": {
+                "id": "2825873c-a101-45be-a4fa-4f58d577c71e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_background\/snd_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
