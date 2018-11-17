@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_peon",
     "eventList": [
-        
+        {
+            "id": "44f1cbd7-8cde-4e9a-9004-694561a17dc1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6b60b0d2-267f-49c2-9e4b-7b0abb8b75fd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
