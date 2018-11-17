@@ -1,8 +1,8 @@
 /// @description Draw health and other stuff
 
 draw_set_color(c_black);
-draw_set_alpha(0.9);
-draw_roundrect(20, window_get_height() - 20, window_get_width() - 20, window_get_height() - 220, false);
+draw_set_alpha(1);
+//draw_roundrect(10, window_get_height() - 10, window_get_width() - 10, window_get_height() - 110, false);
 draw_set_font(fnt_vcr);
 draw_set_color(c_white);
 draw_set_valign(fa_center);

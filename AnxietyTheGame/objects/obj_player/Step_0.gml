@@ -86,3 +86,8 @@ if( mouse_check_button(mb_left)) && (bulletCooldown < 1) {
 }
 
 bulletCooldown -= 1;
+
+
+if( playerHealth == 0) {
+	game_restart();
+}
