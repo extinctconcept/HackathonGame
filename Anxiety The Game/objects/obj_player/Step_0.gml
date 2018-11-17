@@ -9,8 +9,12 @@ posX = move * walkspd;
 
 if(posX > 1) {
 	image_xscale = sign(posX);
+	sprite_index = spr_player_walk;
 } else if (posX < 0) {
 	image_xscale = sign(posX);
+	sprite_index = spr_player_walk;
+} else {
+	sprite_index = spr_player;
 }
 
  // Gravity

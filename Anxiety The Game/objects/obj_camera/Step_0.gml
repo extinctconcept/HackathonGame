@@ -11,8 +11,8 @@ camera_set_view_mat(camera, vm);
 
 // parallax code below
 
-var backdrop = layer_get_id("bkg_sky");
-var background = layer_get_id("bkg_city");
+var backdrop = layer_get_id("bkg_backdrop");
+var background = layer_get_id("bkg_background");
 var foreground = layer_get_id("bkg_foreground");
 
 layer_x(backdrop ,lerp(0, x, 0.75));
