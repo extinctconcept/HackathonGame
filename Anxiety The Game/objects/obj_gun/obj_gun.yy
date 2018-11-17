@@ -1,28 +1,18 @@
 {
-    "id": "7858ca5b-9c2c-4664-a7bb-9b38b02032ef",
+    "id": "43f0fcdb-2a59-4fdb-8ba6-ff6ee1a6b70b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_projectile1",
+    "name": "obj_gun",
     "eventList": [
         {
-            "id": "102c6680-3584-4ca2-a296-54af0af560e9",
+            "id": "703b2065-7ee1-4f19-b802-e00a7cf2e18d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7858ca5b-9c2c-4664-a7bb-9b38b02032ef"
-        },
-        {
-            "id": "17380490-6adc-4f4f-9825-250534b3b02c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 77,
-            "eventtype": 8,
-            "m_owner": "7858ca5b-9c2c-4664-a7bb-9b38b02032ef"
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "43f0fcdb-2a59-4fdb-8ba6-ff6ee1a6b70b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "af4f3f76-6778-4d13-adcf-d75f8e0fb90f",
+    "spriteId": "f40364de-f6ee-40db-b3d0-ef1b93f9ea62",
     "visible": true
 }

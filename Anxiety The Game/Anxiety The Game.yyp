@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "43f0fcdb-2a59-4fdb-8ba6-ff6ee1a6b70b",
+            "Value": {
+                "id": "cb6ebc71-0685-49c5-aa69-1c9e884578ce",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_gun\/obj_gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49446c04-dcc5-44e5-b2b9-976abee1d995",
             "Value": {
                 "id": "23cb39b2-5f49-4a45-92e3-3ffe594afbd3",
@@ -586,6 +605,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_floor\/spr_floor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f40364de-f6ee-40db-b3d0-ef1b93f9ea62",
+            "Value": {
+                "id": "2f01c812-4129-417e-bffc-d8a733d324fc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_gun\/spr_gun.yy",
                 "resourceType": "GMSprite"
             }
         },
