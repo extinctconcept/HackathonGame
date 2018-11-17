@@ -29,48 +29,49 @@ if(posX > 1) {
  
  // Image blending note obj_player.image_blend = make_colour_hsv(156, 100, 255);
  
- 
+ // **************** COLLISION DETECTION *******************//
  // Wall Collision Horizontal
  if(place_meeting(x + posX, y, obj_wall)) {
-	while(!place_meeting(x + posX, y, obj_wall)){
+	while(!place_meeting(x + sign(posX), y, obj_wall)){
 		x = x + sign(posX);
 	}
 	posX = 0;
  }
  
- x = x + posX;
+
  
  // Wall Collision Vertical
   if(place_meeting(x, y + posY, obj_wall)) {
-	while(!place_meeting(x, y + posY, obj_wall)){
+	while(!place_meeting(x, y + sign(posY), obj_wall)){
 		y = y + sign(posY);
 	}
 	posY = 0;
  }
  
- y = y + posY;
+ 
  
  
  // Floor Collision Horizontal
  if(place_meeting(x + posX, y, obj_floor)) {
-	while(!place_meeting(x + posX, y, obj_floor)){
+	while(!place_meeting(x + sign(posX), y, obj_floor)){
 		x = x + sign(posX);
 	}
 	posX = 0;
  }
  
- x = x + posX;
+
  
  // Floor Collision Vertical
   if(place_meeting(x, y + posY, obj_floor)) {
-	while(!place_meeting(x, y + posY, obj_floor)){
+	while(!place_meeting(x, y + sign(posY), obj_floor)){
 		y = y + sign(posY);
 	}
 	posY = 0;
  }
  
+ x = x + posX;
  y = y + posY;
  
  
- // adding a dumb comment
+// **************** END COLLISION DETECTION *******************//
  
