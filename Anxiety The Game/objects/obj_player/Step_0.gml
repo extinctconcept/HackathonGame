@@ -74,3 +74,11 @@ if(posX > 1) {
  
  
 // **************** END COLLISION DETECTION *******************//
+
+
+if( mouse_check_button(mb_left)) && (bulletCooldown < 1) {
+	instance_create_layer(obj_player.x, obj_player.y, layer, obj_projectile1);
+	bulletCooldown = 15;
+}
+
+bulletCooldown -= 1;

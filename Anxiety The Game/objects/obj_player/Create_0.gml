@@ -4,3 +4,4 @@ grav = 0.38;
 walkspd = 4;
 jumpCurr = 0;
 jumpNum = 1;
+bulletCooldown = 0;
